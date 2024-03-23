@@ -9,6 +9,7 @@ export const HW3 = () => {
   // - дописать функциональность (где указано комментариями)
   // - приложение должно компилироваться и запускаться в браузере
 
+  // ❗ Массив с данными не трогаем! Текст не меняем !
 
   const [currentText, setCurrentText] = useState('');
   const [texts, setTexts] = useState<string[]>([
