@@ -4,10 +4,11 @@ type AddressType = {
 };
 
 type UserType = {
-  id: number
-  name: string
-  age: number
-  address: AddressType
+  // ПРИДЕТСЯ САМОМУ)
+  id: number;
+  name: string;
+  age: number;
+  address: AddressType;
 };
 
 type UserListPropsType = {
